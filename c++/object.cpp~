@@ -1,0 +1,32 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  object.cpp
+ *
+ *    Description:  面向對象編程
+ *
+ *        Version:  1.0
+ *        Created:  2014年07月29日 20时01分51秒
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Z_Z.W (ZZW), myhongkongzhen@gmail.com
+ *   Organization:  
+ *
+ * =====================================================================================
+ */
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+	string s = "hello world";
+	s.replace(2,5,"***");
+	s.insert(1,"$$$");
+	cout << s << endl;
+	return 0;
+}
+
+
+
+

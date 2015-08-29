@@ -1,0 +1,8 @@
+world
+hello
+w-r--r-- 1 wzz wzz 895 08-31 19:14 1-sbrk-brk.c
+-rw-r--r-- 1 wzz wzz 805 08-31 21:17 2-read-write.c
+-rw-r--r-- 1 wzz wzz 559 09-01 08:40 3-test.c
+-rw-r--r-- 1 wzz wzz 838 09-01 08:41 4-popen.c
+-rw-r--r-- 1 wzz wzz 194 09-01 08:39 makefile
+-rw-r--r-- 1 wzz wzz   0 09-01 10:15 test.txt

@@ -1,0 +1,10 @@
+TEMPLATE = app
+SOURCES = 13-01main.cpp
+HEADERS = 
+CONFIG = qt release
+#QT = core gui network xml sql
+QT = core gui
+TARGET = main
+#LIBS = -l -L
+#FORMS = 
+

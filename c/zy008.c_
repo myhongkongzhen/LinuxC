@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <ctype.h>
+
+short isdigitstr(const char* str,int bytes){
+	if(bytes-- != 0){
+		if(isdigit(*str)){
+			printf("%c\n",*str);
+			++str;	
+			return isdigitstr(str,sizeof(str));  
+		}else
+			return 0;
+	}
+}
+
+int main(){
+	const char* str = "123";
+	printf("%s%s\n",str,(isdigitstr(str,sizeof(str)) ? "是數字字符串":"不是數字字符串"));
+	return 0;
+}
+

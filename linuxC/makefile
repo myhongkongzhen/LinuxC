@@ -1,0 +1,212 @@
+17-04:
+	gcc -omain 17-04arp.c
+17-03:
+	gcc -omain 17-03sockraw.c
+17-02:
+	gcc -omain 17-02finddev.c
+17-01:
+	gcc -omain 17-01demo.c -lpthread
+13-03:
+	gcc -omain 13-03sem.c -lpthread
+13-02:
+	gcc -omain 13-02demo.c -lpthread -lcurses
+13-01:
+	gcc -omain 13-01demo.c -lpthread -lcurses
+12-09:
+	gcc -omain 12-09deadlock.c -lpthread
+12-08:
+	gcc -omain 12-08signal.c -lpthread
+12-07:
+	gcc -omain 12-07signal.c -lpthread
+12-06:
+	gcc -omain 12-06signal.c -lpthread
+12-05:
+	gcc -omain 12-05signal.c -lpthread
+12-04:
+	gcc -omain 12-04sigdemo.c -lpthread
+12-03:
+	gcc -omain 12-03cleanup.c -lpthread
+12-02:
+	gcc -omain 12-02demo.c -lcurses -lpthread
+12-01:
+	gcc -omain 12-01createth.c -lpthread
+11-06:
+	gcc -omain 11-06http.c
+11-05:
+	gcc -omain 11-05cast.c
+11-04:
+	gcc -omain 11-04cast.c
+11-03:
+	gcc -omain 11-03sockopt.c
+11-02:
+	gcc -omain 11-02server.c
+11-01:
+	gcc -omain 11-01select.c
+10-06:
+	gcc -omain 10-06qq.c
+10-05:
+	gcc -omain 10-05qq.c -lcurses
+10-04:
+	gcc -omain 10-04demoserver.c
+10-03:
+	gcc -omain 10-03democlient.c
+10-02:
+	gcc -omain 10-02tcpserver.c
+10-01:
+	gcc -omain 10-01tcpserver.c
+9-08:
+	gcc -omain 9-08udp.c
+9-07:
+	gcc -omain 9-07udp.c
+9-06:
+	gcc -omain 9-06protocol.c -D_GNU_SOURCE #編譯時加宏
+9-05:
+	gcc -omain 9-05getip.c
+9-04:
+	gcc -omain 9-04host.c
+9-03:
+	gcc -omain 9-03inet.c
+9-02:
+	gcc -omain 9-02sem.c
+9-01:
+	gcc -omain 9-01sem.c
+8-08:
+	gcc -omain 8-08socket.c
+8-07:
+	gcc -omain 8-07socket.c
+8-06:
+	gcc -omain 8-06socket.c
+8-05:
+	gcc -omain 8-05socket.c
+8-04:
+	gcc -omain 8-04msg.c
+8-03:
+	gcc -omain 8-03msg.c
+8-02:
+	gcc -omain 8-02shm.c
+8-01:
+	gcc -omain 8-01shm.c
+7-13:
+	gcc -omain 7-13demo.c
+7-12:
+	gcc -omain 7-12demo.c
+7-11:
+	gcc -omain 7-11pipe.c
+7-10:
+	gcc -omain 7-10fifo.c
+7-09:
+	gcc -omain 7-09fifo.c
+7-08:
+	gcc -omain 7-08proc.c
+7-07:
+	gcc -omain 7-07proc.c
+7-06:
+	gcc -omain 7-06sigqueue.c
+7-05:
+	gcc -omain 7-05sigaction.c
+7-04:
+	gcc -omain 7-04sighandle.c
+7-03:
+	gcc -omain 7-03demo.c
+7-02:
+	gcc -omain 7-02suspend.c
+7-01:
+	gcc -omain 7-01sigmask.c
+6-09:
+	gcc -omain 6-09mask.c
+6-08:
+	gcc -omain 6-08demo.c -lcurses
+6-07:
+	gcc -omain 6-07demo.c -lcurses
+6-06:
+	gcc -omain 6-06alarm.c
+6-05:
+	gcc -omain 6-05kill.c
+6-04:
+	gcc -omain 6-04singaldeal.c
+6-03:
+	gcc -omain 6-03getlock.c
+6-02:
+	gcc -omain 6-02setlock.c
+6-01:
+	gcc -omain 6-01atexit.c
+5-11:
+	gcc -omain 5-11procfile.c
+5-10:
+	gcc -omain 5-10procmem.c
+5-09:
+	gcc -omain 5-09parentchild.c
+5-08:
+	gcc -omain 5-08tasks.c -lcurses
+5-07:
+	gcc -omain 5-07fork.c
+5-06:
+	gcc -omain 5-06exec.c
+5-05:
+	gcc -omain 5-05popen.c
+5-04:
+	gcc -omain 5-04system.c
+5-03:
+	gcc -omaint 5-03system.c
+5-02:
+	gcc -omain 5-02scandir.c
+5-01:
+	gcc -omain 5-01dir.c
+4-13:
+	gcc -omain 4-13derwin.c -lcurses
+4-12:
+	gcc -omain 4-12scanw.c -lcurses
+4-11:
+	gcc -omain 4-11addstr.c -lcurses \
+		-finput-charset=UTF-8 -fexec-charset=UTF-8
+4-10:
+	gcc -omain 4-10demo.c -lcurses
+4-09:
+	gcc -omain 4-09input.c -lcurses
+4-08:
+	gcc -omain 4-08login.c -lcurses
+4-07:
+	gcc -omain 4-07time.c -lcurses
+4-06:
+	gcc -omain 4-06addch.c -lcurses
+4-05:
+	gcc -omain 4-05cur_init.c -lncurses
+map:
+	gcc -omain 4-04map_write.c
+fstat:
+	gcc -omain 4-03fstat.c
+4-02demo:
+	gcc -omain 4-02demo.c
+lseek:
+	gcc -omain 4-01lseek.c
+zuye:
+	gcc -omain 3-09zuye.c
+structread:
+	gcc -omain 3-08readir.c
+struct:
+	gcc -omain 3-07struct.c
+readfile:
+	gcc -omain 3-06read.c
+open:
+	gcc -omain 3-05open.c
+fd:
+	gcc -omain 3-03fd.c
+
+getenv:
+	gcc -omain 3-02getenv.c
+
+env:
+	gcc -omain 3-01env.c
+
+demo:
+	gcc 2-04graphics.c -c -fpic
+	gcc 2-04iotool.c -c -fpic
+	gcc -shared -olibdemo.so 2-04graphics.o 2-04iotool.o
+	gcc 2-04main.c -ldemo -L.
+
+.PHONY:clean
+clean:
+	rm -rf *.o *.so *.a a.out main maint tags cscope.* my.sock
+
+
+
